@@ -66,7 +66,7 @@
     "policy_version": "2026-09-15 시행",
     "policy_file": "data/policies/미리캔버스_개인정보처리방침_20261019.txt",
     "extracted_at": "2026-10-19",
-    "method": "Zendesk 도움말 센터 API(help.miricanvas.com/api/v2/help_center/ko/articles/ID.json)로 본문 수집 후 Solar(solar-pro4) 추출, Claude가 검증·보완",
+    "method": "AI가 약관 본문을 읽고 추출, 사람이 검수",
     "supplementary": [
       "https://help.miricanvas.com/hc/ko/articles/52738297282713 (보호자 개인정보 수집·이용 동의문)",
       "https://help.miricanvas.com/hc/ko/articles/58419724657305 (만 14세 미만 이용자 가입 방법)",

@@ -60,7 +60,7 @@
     "policy_version": "2026-01-15 시행(영문)",
     "policy_file": "data/policies/퀴즈앤_개인정보처리방침_20261019.txt",
     "extracted_at": "2026-10-19",
-    "method": "Solar(solar-pro4) 추출 후 Claude 검수"
+    "method": "AI가 약관 본문을 읽고 추출, 사람이 검수"
   },
   "_review_required": true
 }

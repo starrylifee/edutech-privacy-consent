@@ -61,7 +61,7 @@
     "policy_version": "2026-09-22 시행",
     "policy_file": "data/policies/띵커벨_개인정보처리방침_20261019.txt",
     "extracted_at": "2026-10-19",
-    "method": "curl로 본문 수집(HTML 태그 제거) → Solar(solar-pro4) extract_policy.py 추출 → Claude가 학생 조항(2-4) 기준으로 items·purpose·retention·foreign·children 수정"
+    "method": "AI가 약관 본문을 읽고 추출, 사람이 검수"
   },
   "_review_required": true
 }

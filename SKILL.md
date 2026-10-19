@@ -12,7 +12,7 @@ description: 수업에 쓸 에듀테크(캔바·패들렛·구글 워크스페�
 이 스킬 폴더가 곧 저장소 루트다(scripts·template·data가 같이 들어 있다). 깃헙 starrylifee/edutech-privacy-consent.
 사용자 PC에서는 `~/.claude/skills/에듀테크동의서` ↔ `C:\Project_Codes\20261019 학습지원소프트웨어` 정션(같은 폴더). 다른 PC는 `git clone`으로 설치.
 아래 경로는 모두 이 폴더 기준. 설정 JSON의 `product_files`는 **설정 파일이 있는 폴더 기준** 상대경로.
-Solar 추출 스크립트(`extract_policy.py`)는 사용자 PC의 업스테이지 스크립트를 호출한다. 다른 PC면 Claude가 같은 10개 항목을 직접 읽어 JSON을 쓴다(canva.json이 본보기).
+외부 모델·API는 쓰지 않는다. 약관 추출은 이 스킬을 실행하는 AI(Claude Code·Codex)가 본문을 직접 읽고 한다. 파이썬 표준 라이브러리만 필요하다(한글 렌더 확인만 pywin32·pymupdf 선택).
 
 ## 절차
 
@@ -37,12 +37,10 @@ Solar 추출 스크립트(`extract_policy.py`)는 사용자 PC의 업스테이�
 8. 그래도 못 받으면 사용자에게 앱 설정 화면의 처리방침 링크를 묻는다. **억지로 만들지 않는다.**
 URL을 모르면 WebSearch `"제품명 개인정보처리방침"`. 해외 서비스는 영문 원문이 우선이고 한국어판은 참고.
 
-### 3. 추출 → `data/products/제품id.json`
-```
-python scripts/extract_policy.py 약관.txt --name "제품명" --vendor "회사" --url URL --version "2026-09-15 시행" -o data/products/제품id.json
-```
-Solar가 10개 항목 + 근거 문장(quote)을 `_extracted`에 넣는다(1~2분). 그 다음 **Claude가 반드시 검수**한다:
-- quote가 본문에 실제로 있는지 grep. 없거나 비면 본문을 읽고 고친다.
+### 3. 추출 → `data/products/제품id.json` (AI가 직접)
+`references/extraction-guide.md`를 읽고, 약관 본문에서 10개 항목(`_extracted`)을 근거 문장(quote)과 함께 뽑은 뒤 상단 필드를 채운다. 빈 틀은 `data/products/_template.json`, 본보기는 canva.json(해외)·toctocmath.json(국내)·quizn.json(비회원 참여형).
+- 약관이 길면(1만 자 이상) 목차를 먼저 보고 수집항목·보유기간·제3자 제공·위탁·국외이전·아동·연락처 절만 골라 읽는다.
+- quote는 토씨 그대로 옮기고, 쓴 뒤 본문에서 grep으로 실제 있는 문장인지 확인한다.
 - 상단 필드(동의서에 찍히는 값)는 **학부모가 읽는 글**이다. 다음 규칙으로 다듬는다.
   - `items`: 학교가 계정 만들 때 넘기는 것 기준. "성명, 학년, 반, 번호" + 그 서비스 고유 항목(학교 계정 이메일, 작품, 학습 이력 등). IP·쿠키·OS·기기정보 같은 자동수집 항목, 교사·결제·마케팅 항목은 넣지 않는다(근거표의 `_extracted.items`에만 남긴다). 60자 안팎.
   - `retention`: 학교 기준 "해당 학년도 교육과정 종료 시까지"만. 서비스 자체 기간은 `_extracted.retention`에.

@@ -1,0 +1,42 @@
+{
+  "name": "제품명\n(영문)",
+  "vendor": "운영 회사(국가)",
+  "foreign": false,
+  "country": "대한민국",
+  "purpose": "교육과정 운영 및 ○○ 교과 활동, ○○ 학생 계정 생성 및 학습 관리",
+  "items": "성명, 학년, 반, 번호",
+  "retention": "해당 학년도 교육과정 종료 시까지",
+  "third_party": {
+    "receiver": "운영 회사(국가)",
+    "purpose": "○○ 서비스 내 학생 계정 생성 및 서비스 제공",
+    "items": "성명, 학년, 반, 번호",
+    "retention": "해당 학년도 교육과정 종료 시까지"
+  },
+  "transfer": {
+    "receiver": "이전받는 자(국가) — foreign이 false면 이 블록을 지운다",
+    "country_method": "제품(국가)에서 제공하는 클라우드 서버에 저장(서비스 제공자의 서버 위치에 따라 변경 가능)",
+    "items": "성명, 학년, 반, 번호",
+    "retention": "해당 학년도 교육과정 종료 시까지"
+  },
+  "_extracted": {
+    "vendor": {"value": "", "quote": ""},
+    "foreign": {"value": false, "quote": ""},
+    "country": {"value": "", "quote": ""},
+    "items": {"value": "", "quote": ""},
+    "purpose": {"value": "", "quote": ""},
+    "retention": {"value": "", "quote": ""},
+    "third_party": {"value": "", "quote": ""},
+    "outsourcing": {"value": "", "quote": ""},
+    "children": {"value": "", "quote": ""},
+    "dpo": {"value": "", "quote": ""},
+    "notes": ""
+  },
+  "_source": {
+    "url": "",
+    "policy_version": "YYYY-MM-DD 시행",
+    "policy_file": "data/policies/제품명_개인정보처리방침_YYYYMMDD.txt",
+    "extracted_at": "YYYY-MM-DD",
+    "method": "AI가 약관 본문을 읽고 추출, 사람이 검수"
+  },
+  "_review_required": true
+}

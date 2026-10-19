@@ -19,20 +19,26 @@
 
 ![예시 1쪽](docs/sample_p1.png)
 
-## 설치 (Claude Code)
+## 설치 (Claude Code · Codex)
 
 AI에게 이렇게 말하면 됩니다.
 
 > 이 저장소를 스킬로 설치해줘: https://github.com/starrylifee/edutech-privacy-consent
 
-직접 하려면:
+직접 하려면 저장소 폴더를 통째로 스킬 폴더에 넣습니다.
+
+| 프로그램 | 위치 |
+|---|---|
+| Claude Code | `~/.claude/skills/edutech-privacy-consent/` |
+| Codex (CLI·IDE 확장) | `~/.agents/skills/edutech-privacy-consent/` |
 
 ```bash
-git clone https://github.com/starrylifee/edutech-privacy-consent ~/.claude/skills/에듀테크동의서
-pip install pywin32 pymupdf   # 한글 렌더 확인용(한글이 설치된 윈도우 PC만)
+git clone https://github.com/starrylifee/edutech-privacy-consent ~/.claude/skills/edutech-privacy-consent
 ```
 
-윈도우라면 `~`는 `C:\Users\내이름`입니다. 넣은 뒤 Claude Code를 한 번 껐다 켜세요.
+윈도우라면 `~`는 `C:\Users\내이름`입니다. 넣은 뒤 프로그램을 한 번 껐다 켜세요.
+필요한 것은 파이썬 3뿐입니다(표준 라이브러리만 씀). 한글 파일을 열어 화면까지 확인하려면 한글이 설치된 윈도우에서 `pip install pywin32 pymupdf`를 추가하세요(선택).
+외부 AI API나 별도 모델은 쓰지 않습니다. 약관 읽기·추출은 스킬을 실행하는 AI가 직접 합니다.
 
 ## 쓰는 법
 
@@ -82,9 +88,8 @@ python scripts/render_check.py  out/동의서_예시.hwpx 110   # 한글로 열�
 
 1. 개인정보처리방침 본문을 텍스트로 저장: `python scripts/html2text.py URL data/policies/제품_개인정보처리방침_날짜.txt`
    (본문이 안 받아지면 WebFetch, 크롬, 앱스토어 페이지의 약관 링크, 도움말센터 API 순으로 시도. 자세한 순서는 SKILL.md 2단계)
-2. 추출: `python scripts/extract_policy.py 약관.txt --name "제품명" --vendor "회사" --url URL --version "2026-09-15 시행" -o data/products/제품.json`
-   (업스테이지 Solar를 쓰는 개인 스크립트를 호출합니다. 없으면 `data/products/canva.json`을 본보기로 AI가 직접 작성하면 됩니다.)
-3. `_extracted`의 근거 문장을 보고 상단 필드를 학부모가 읽기 쉽게 다듬습니다. 규칙은 SKILL.md 3단계(학생 계정 항목만, 국외이전 넣는 조건 4가지, 모르면 [확인 필요]).
+2. 추출: AI가 `references/extraction-guide.md`대로 약관을 읽고 `data/products/제품.json`을 씁니다(빈 틀 `data/products/_template.json`). 10개 항목마다 약관 원문 근거 문장을 함께 남깁니다.
+3. 상단 필드(동의서에 찍히는 값)를 학부모가 읽기 쉽게 다듬습니다. 규칙은 같은 파일에 있습니다(학생 계정 항목만, 국외이전 넣는 조건 4가지, 모르면 [확인 필요]).
 4. 설정 파일의 `product_files`에 추가하고 다시 생성합니다.
 
 제품 JSON 필드:
@@ -111,8 +116,9 @@ python scripts/render_check.py  out/동의서_예시.hwpx 110   # 한글로 열�
 SKILL.md        AI가 읽는 작업 순서(이 폴더가 곧 스킬)
 template/       서울시교육청 동의서 양식(hwpx)
 scripts/        build_consent.py(hwpx) · build_html.py(클릭 복사 표) · make_review.py(근거표)
-                extract_policy.py(약관 추출) · html2text.py(약관 받기) · render_check.py(한글 렌더 확인)
-data/           example.json · all8.json(설정) · products/(제품별 JSON) · policies/(약관 원문)
+                html2text.py(약관 받기) · render_check.py(한글 렌더 확인, 선택)
+references/     extraction-guide.md(AI가 약관에서 뽑는 10개 항목과 작성 규칙)
+data/           example.json · all8.json(설정) · products/(제품별 JSON, _template.json) · policies/(약관 원문)
 out/            생성물   docs/  예시 화면
 ```
 

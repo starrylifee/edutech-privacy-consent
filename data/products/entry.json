@@ -63,8 +63,7 @@
       "data/policies/엔트리_학급서비스이용약관_20261019.txt (2020-07-31 시행, https://playentry.org/terms/class)"
     ],
     "extracted_at": "2026-10-19",
-    "method": "curl·WebFetch는 Next.js 렌더링 껍데기만 반환 → 번들에서 GraphQL 쿼리(GET_TERMS_LIST) 확인 후 https://playentry.org/graphql 로 직접 호출(CSRF 토큰·쿠키 필요)해 본문 확보. Solar(solar-pro4) 추출 후 Claude가 quote 전수 검증·보완",
-    "model": "solar-pro4"
+    "method": "AI가 약관 본문을 읽고 추출, 사람이 검수"
   },
   "_review_required": true
 }

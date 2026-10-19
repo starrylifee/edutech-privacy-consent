@@ -70,8 +70,7 @@
     "policy_version": "2025. 7. 14. 시행(공고 2025. 6. 30.)",
     "policy_file": "data/policies/클래스팅_개인정보처리방침_20261019.txt",
     "extracted_at": "2026-10-19",
-    "method": "www.classting.com 약관 경로는 SPA 껍데기만 반환 → 앱스토어 페이지의 개인정보 처리방침 링크로 policies.classting.com 발견 → curl 수집 후 HTML 제거 → Solar(solar-pro4) 추출 후 Claude가 학생 계정 기준으로 수정",
-    "model": "solar-pro4"
+    "method": "AI가 약관 본문을 읽고 추출, 사람이 검수"
   },
   "_review_required": true
 }

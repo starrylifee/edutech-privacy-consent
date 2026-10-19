@@ -67,8 +67,7 @@
     "policy_version": "최종 수정일 2026년 8월 13일(한국어판, 이전 버전 2026년 7월 16일)",
     "policy_file": "data/policies/구글워크스페이스교육용_개인정보보호고지_20261019.txt",
     "extracted_at": "2026-10-19",
-    "method": "curl -sk -L로 HTML 수집 후 태그 제거(8,418자) → scripts/extract_policy.py(Solar pro4) 추출 → Claude가 quote를 본문과 대조해 수정·보강",
-    "model": "solar-pro4"
+    "method": "AI가 약관 본문을 읽고 추출, 사람이 검수"
   },
   "_review_required": true
 }
