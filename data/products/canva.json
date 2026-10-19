@@ -1,0 +1,41 @@
+{
+  "name": "캔바\n(Canva)",
+  "vendor": "Canva Pty Ltd",
+  "foreign": true,
+  "country": "호주(본사) / 미국·호주·싱가포르·EU·영국·필리핀·뉴질랜드(저장·처리)",
+  "purpose": "교육과정 운영 및 교과 활동(디자인·발표 자료 제작), 교육용 캔바 계정 생성 및 학습 관리",
+  "items": "성명, 학년, 반, 번호, 학교 계정 이메일, 제작한 디자인 작품",
+  "retention": "해당 학년도 교육과정 종료 시까지",
+  "third_party": {
+    "receiver": "Canva Pty Ltd(캔바, 호주)",
+    "purpose": "교육용 캔바 서비스 내 학생 계정 생성 및 서비스 제공",
+    "items": "성명, 학년, 반, 번호, 학교 계정 이메일, 제작한 디자인 작품",
+    "retention": "해당 학년도 교육과정 종료 시까지"
+  },
+  "transfer": {
+    "receiver": "Canva Pty Ltd(호주)",
+    "country_method": "캔바(호주)에서 제공하는 클라우드 서버에 저장(미국·호주·싱가포르 등 서비스 제공자의 서버 위치에 따라 변경 가능)",
+    "items": "성명, 학년, 반, 번호, 학교 계정 이메일, 제작한 디자인 작품",
+    "retention": "해당 학년도 교육과정 종료 시까지"
+  },
+  "_extracted": {
+    "vendor": {"value": "Canva Pty Ltd, 110 Kippax St, Surry Hills NSW 2010, Australia. 국내대리인 제네럴에이전트 주식회사(02-736-5453, canva@generalagent.co.kr)", "quote": "13. 당사의 연락처 — 개인정보보호 책임자(Head of Privacy) Canva Pty Ltd 110 Kippax St Surry Hills NSW 2010 Australia"},
+    "foreign": {"value": true, "quote": "4. 본 서비스를 통해 수집된 귀하의 정보는 미국, 호주, 싱가포르, 유럽연합, 영국, 필리핀 및 뉴질랜드와 … 기타 국가에서 저장 및 처리됩니다."},
+    "country": {"value": "미국, 호주, 싱가포르, EU, 영국, 필리핀, 뉴질랜드", "quote": "4. 당사가 귀하의 정보를 이전, 저장 및 보호하는 방법"},
+    "items": {"value": "계정 등록 시 사용자명, 성명, 생년월일, 전화번호, 직업, 거주지 주소, 이메일 주소(요청될 수 있음); 업로드 콘텐츠(디자인·이미지·문서·동영상); 기기·로그·쿠키 정보", "quote": "1.(a) 당사는 귀하가 Canva 계정을 등록하거나 당사와 서신을 주고 받을 때에 특정 정보(사용자명, 귀하의 성명, 생년월일, 전화번호, 직업, 거주지 주소, 이메일 주소 등)를 요청할 수 있습니다."},
+    "purpose": {"value": "서비스 제공·운영, 데이터 분석, 맞춤형 서비스, 커뮤니케이션, 보안. 교육용 Canva 학생에게는 광고 없음", "quote": "2. 당사의 귀하 정보 사용 방법 — 본 서비스 제공 … 교육용 Canva: 당사는 교육용 Canva를 사용하는 학생들에게는 광고를 하지 않습니다."},
+    "retention": {"value": "계정 비활성화 시까지(한국 법령 보존 기간 예외). 교육용: 12개월 이상 미로그인 시 통지 후 3개월 내 미로그인이면 삭제, 학교 계정 해지 시 학생 계정 전부 삭제", "quote": "7. 귀하의 사용자 계정이 비활성화될 때까지 귀하의 개인정보를 보유합니다. / 8. 학교의 교육용 Canva 계정이 해지될 시, 당사는 해당 학교와 관련된 모든 학생 계정을 삭제합니다."},
+    "third_party": {"value": "학생 데이터 판매 없음. 교육용 Canva 서비스 제공 목적의 수탁사(AWS 데이터 저장, Amplitude 분석, Zendesk 지원 등)에 한해 공유", "quote": "8. 당사는 학생 데이터를 판매하지 않습니다. … 아래 제3자 서비스 제공업체들은 교육용 Canva 서비스를 제공할 목적에 한하여 학생 데이터를 처리합니다."},
+    "outsourcing": {"value": "Amazon Web Services(데이터 저장·이메일), Amplitude·Looker·Mode(이용 분석), Atlassian·Zendesk·Concentrix(사용자 지원), MongoDB Atlas·Snowflake(데이터 저장), Sentry(오류 모니터링), SheerID(교사 인증) 등", "quote": "8. 제공업체(목적) Amazon Web Services (데이터 저장, 서비스 이메일) …"},
+    "children": {"value": "만 13세 미만 아동의 직접 가입 불가. 교육용 Canva에서는 교사·교육기관이 부모 동의를 얻거나 부모를 대신해 동의함으로써 학생 데이터 수집 승인", "quote": "8. Canva의 학생 데이터 수집은 참여 교사 및/또는 교육기관이 부모의 동의를 득하거나 해당되는 경우 부모를 대신하여 … 동의를 제공함으로써 승인됩니다."},
+    "dpo": {"value": "privacy@canva.com (Head of Privacy). 국내대리인 제네럴에이전트 주식회사 02-736-5453", "quote": "13. 이메일: privacy@canva.com / 국내대리인 제네럴에이전트 주식회사 (대표 김은미) … 02-736-5453"},
+    "notes": "교육용 Canva(Canva for Education) 계정으로 가입해야 광고 제외·학생 보호 조항이 적용됨. 학생 가입 시 학교가 보호자 동의를 대리하므로 이 동의서가 그 근거가 됨. 서버는 호주 외 여러 나라이므로 국외이전 고지 필수."
+  },
+  "_source": {
+    "url": "https://www.canva.com/ko_kr/policies/privacy-policy/",
+    "policy_version": "2023-11-29 시행(한국어 AI 번역본, 영어 원문 우선)",
+    "extracted_at": "2026-10-19",
+    "method": "Claude가 크롬으로 본문을 읽고 직접 추출"
+  },
+  "_review_required": true
+}

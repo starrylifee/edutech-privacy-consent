@@ -1,0 +1,41 @@
+{
+  "name": "패들렛\n(Padlet)",
+  "vendor": "Wallwisher, Inc.(Padlet)",
+  "foreign": true,
+  "country": "미국",
+  "purpose": "교육과정 운영 및 교과 활동(학생 의견 공유·협업 게시판), 회원 가입 및 학습 관리",
+  "items": "성명, 학년, 반, 번호, 학교 계정 이메일, 게시한 글·사진·파일",
+  "retention": "해당 학년도 교육과정 종료 시까지",
+  "third_party": {
+    "receiver": "Wallwisher, Inc.(패들렛, 미국)",
+    "purpose": "패들렛 서비스 내 학생 계정 생성 및 서비스 제공",
+    "items": "성명, 학년, 반, 번호, 학교 계정 이메일, 게시한 글·사진·파일",
+    "retention": "해당 학년도 교육과정 종료 시까지"
+  },
+  "transfer": {
+    "receiver": "Wallwisher, Inc.(미국)",
+    "country_method": "패들렛(미국)에서 제공하는 클라우드 서버에 저장(서비스 제공자의 서버 위치에 따라 변경 가능)",
+    "items": "성명, 학년, 반, 번호, 학교 계정 이메일, 게시한 글·사진·파일",
+    "retention": "해당 학년도 교육과정 종료 시까지"
+  },
+  "_extracted": {
+    "vendor": {"value": "Wallwisher, Inc. DBA Padlet, 981 Mission St, San Francisco, CA 94103, 미국. 국내대리인 푸름법률사무소 이도경(ask@pureumlawoffice.com, 02-790-7303)", "quote": "Contact Us — Wallwisher, Inc. 981 Mission St San Francisco, CA 94103 / Padlet has appointed Dokyung Lee at Pureum Law Office as its Korean PIPA representative"},
+    "foreign": {"value": true, "quote": "These service providers may be located inside or outside of the European Economic Area"},
+    "country": {"value": "미국(본사), 서비스 제공업체는 EEA 안팎", "quote": "Padlet has certified to the U.S. Department of Commerce that Padlet adheres to the EU-U.S. Data Privacy Framework"},
+    "items": {"value": "계정: 사용자명, 비밀번호, 이메일(필수), 사진·이름·소개(선택); SSO 로그인 시 이메일·이름·사진; 게시 콘텐츠(글·이미지·영상·파일); 기기 정보; IP(30일 보관)", "quote": "When you create an account … we require you to provide us information such as your username, password, and email address."},
+    "purpose": {"value": "본인 확인과 서비스 제공, 협업 시 식별, 지원 응대. 마케팅 목적 이용 없음, 광고 없음", "quote": "This information is used for confirming your identity and providing access to the Service. … Padlet also does not display any traditional, contextual or personalized advertisements."},
+    "retention": {"value": "서비스 제공에 필요한 기간 동안 보유, 동의 철회·삭제 요청 시 통상 30일 내 삭제, 백업·로그 최대 30일", "quote": "Padlet will keep information for as long as necessary to provide the Service … beyond the legally required timeframe to complete such a request (usually 30 days)."},
+    "third_party": {"value": "개인정보 판매·대여 없음. 서비스 운영 수탁사(DPA 체결), AI 기능·콘텐츠 검수용 AI 서비스 제공업체에 필요 최소 정보만 공유", "quote": "Padlet does not sell or rent your personal information to any third party for any purpose … We share only necessary information with our AI service providers and do not use your personal data to train the AI."},
+    "outsourcing": {"value": "제3자 벤더·서비스 제공업체(목록은 별도 페이지), AI 서비스 제공업체", "quote": "We work with third-party vendors, service providers, and other partners to help us provide the Service … We maintain the list of providers here."},
+    "children": {"value": "본문에 만 13세/14세 미만 가입 기준 미기재. 학교용(Schools) 계정은 프로필 비공개", "quote": "If you are using our Schools and Business products, your profile is not public."},
+    "dpo": {"value": "privacy@padlet.com. 국내대리인 푸름법률사무소 02-790-7303", "quote": "please contact us by email at privacy@padlet.com"},
+    "notes": "영문 약관만 있음(한국어판 없음). 아동 가입·법정대리인 동의 조항이 본문에 없으므로 학교용(Padlet for Schools) 계정으로 교사가 학생 계정을 만들고 이 동의서로 보호자 동의를 받는 구조로 운영. 공개 패들렛에 올린 내용은 검색엔진에 노출될 수 있으니 비공개 설정 필수."
+  },
+  "_source": {
+    "url": "https://legal.padlet.com/privacy",
+    "policy_version": "Last Updated: Oct 5, 2026",
+    "extracted_at": "2026-10-19",
+    "method": "Claude가 크롬으로 본문을 읽고 직접 추출"
+  },
+  "_review_required": true
+}

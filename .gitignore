@@ -1,0 +1,7 @@
+__pycache__/
+work/
+out/*.pdf
+out/*_p*.png
+*.prompt.txt
+*.raw.txt
+.DS_Store

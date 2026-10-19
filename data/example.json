@@ -1,0 +1,11 @@
+{
+  "school": "○○초등학교",
+  "deadline": "3월 10일(화)",
+  "date": "2026. 3. 3.",
+  "drop_optional_paragraph": false,
+  "product_files": [
+    "products/canva.json",
+    "products/padlet.json",
+    "products/toctocmath.json"
+  ]
+}
