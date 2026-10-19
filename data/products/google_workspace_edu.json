@@ -1,0 +1,74 @@
+{
+  "name": "구글\n워크스페이스\n(교육용)",
+  "vendor": "Google LLC",
+  "foreign": true,
+  "country": "미국",
+  "purpose": "교육과정 운영 및 교과 활동(온라인 수업·과제 제출·협업 문서 작성), 교육용 구글 계정 생성 및 학습 관리",
+  "items": "성명, 학년, 반, 번호, 학교 계정 이메일, 수업 활동 산출물(문서·과제·메일 등)",
+  "retention": "해당 학년도 교육과정 종료 시까지",
+  "third_party": {
+    "receiver": "Google LLC(구글, 미국)",
+    "purpose": "구글 워크스페이스 교육용 서비스(클래스룸·Gmail·Docs 등) 내 학생 계정 생성 및 서비스 제공",
+    "items": "성명, 학년, 반, 번호, 학교 계정 이메일, 수업 활동 산출물(문서·과제·메일 등)",
+    "retention": "해당 학년도 교육과정 종료 시까지"
+  },
+  "transfer": {
+    "receiver": "Google LLC(미국)",
+    "country_method": "구글(미국)에서 제공하는 클라우드 서버에 저장(서비스 제공자의 서버 위치에 따라 변경 가능)",
+    "items": "성명, 학년, 반, 번호, 학교 계정 이메일, 수업 활동 산출물(문서·과제·메일 등)",
+    "retention": "해당 학년도 교육과정 종료 시까지"
+  },
+  "_extracted": {
+    "vendor": {
+      "value": "Google LLC, 1600 Amphitheatre Parkway, Mountain View, CA 94043, USA, (650) 253-0000. 국내대리인은 본 고지에 미기재",
+      "quote": "문의하기 — Google 1600 Amphitheatre Parkway Mountain View, CA 94043, USA (650) 253-0000"
+    },
+    "foreign": {
+      "value": true,
+      "quote": "문의하기 — Google 1600 Amphitheatre Parkway Mountain View, CA 94043, USA"
+    },
+    "country": {
+      "value": "미국(본사). 서버 소재지는 본 고지에 미기재",
+      "quote": "Mountain View, CA 94043, USA"
+    },
+    "items": {
+      "value": "[학교가 계정 생성 시 제공] 이름, 이메일 주소, 비밀번호 (+학교 선택에 따라 보조 이메일·전화번호·주소). [학생이 만드는 고객 데이터] Gmail 메일, Drive 문서 등 핵심 서비스로 제출·저장·전송·수신한 항목. [자동 수집 서비스 데이터] 서비스 사용 활동, 브라우저·기기 정보(유형·고유 식별자·OS·앱 버전 등), IP 주소·비정상 종료 보고서·요청 일시, 위치 정보(IP·GPS), 지원 요청 기록. Read Along 사용 시 음성 데이터(기기 내 처리, 저장 안 함). 결제·거래 데이터는 관리자만",
+      "quote": "• 사용자의 계정 정보 : 여기에는 이름, 이메일 주소, 비밀번호 등이 포함됩니다. 학교에서 보조 이메일 주소, 전화번호, 주소와 같은 기타 정보를 공유할 수 있으며, 사용자가 추가 전화번호 및 프로필 사진과 같은 정보를 계정에 추가할 수도 있습니다. / 사용자가 서비스를 통해 생성할 수 있는 항목에는 Gmail을 사용하는 동안 작성 및 수신하는 이메일 또는 Drive에서 초안을 작성하고 저장하는 문서가 포함됩니다."
+    },
+    "purpose": {
+      "value": "[핵심 서비스] 학교의 계약과 지침에 따라 서비스를 제공·보호·모니터링. 서비스 데이터는 서비스 제공·유지·보안 개선·지원·법적 의무 준수에 사용. 핵심 서비스에는 광고가 없고 개인정보를 광고에 쓰지 않음. [추가 서비스] Google 개인정보처리방침에 따라 서비스 제공·개선·맞춤 서비스 등에 사용, K-12 계정에는 개인 맞춤 광고 없음",
+      "quote": "고객 데이터는 학교의 관련 Google Workspace for Education 계약에 따라 '핵심 서비스'를 제공, 보호, 모니터링하는 데 사용됩니다. / Google Workspace for Education '핵심 서비스'에는 광고가 표시되지 않습니다. 또한 '핵심 서비스'에서 수집된 개인 정보는 광고 목적으로 사용되지 않습니다."
+    },
+    "retention": {
+      "value": "미기재 (보유 기간 조항 없음. 학교 관리자에게 요청해 개인 정보 삭제 또는 전체 계정 삭제가 가능하다는 내용만 있음)",
+      "quote": "사용자 본인 또는 자녀에게 Google Workspace for Education 계정이 있는 경우 관리자에게 문의하여 다음을 수행할 수 있습니다. … • 서비스에서 개인 정보 삭제 또는 전체 계정 삭제"
+    },
+    "third_party": {
+      "value": "원칙적으로 Google 외부와 공유하지 않음. 예외: ①학교 관리자·리셀러(계정 정보·활동 열람, 비밀번호 변경, 정지·해지 등) ②사용자 또는 보호자가 동의하는 경우 ③외부 처리 목적의 Google 계열사·제3자 제공업체 ④법적 사유(강제력 있는 정부 요청 등)",
+      "quote": "'Google'은 다음 경우를 제외하고는 'Google' 외부의 회사, 조직 또는 개인과 개인 정보를 공유하지 않습니다. • 학교 관리자와 공유 … • 사용자가 동의하는 경우 … • 외부 처리 목적 … • 법적 사유"
+    },
+    "outsourcing": {
+      "value": "Google 계열사 및 신뢰할 수 있는 제3자 제공업체(개인정보 처리 업무 대행). 구체적인 수탁사 명단은 본 고지에 미기재",
+      "quote": "'Google'은 'Google'의 지침에 따라 개인정보처리방침 , Google Cloud 개인정보처리방침 및 기타 적절한 비밀유지 및 보안 관련 조치를 준수하면서 'Google'의 개인 정보 처리 업무를 대행하도록 할 목적으로, 'Google' 계열사 및 기타 신뢰할 수 있는 제3자 제공업체와 개인 정보를 공유합니다."
+    },
+    "children": {
+      "value": "만 13세/14세 미만 가입 기준은 미기재(계정을 학교가 생성·관리하는 구조). 학생용 '추가 서비스'(검색·YouTube 등)를 켤 때는 학교(관리자)가 보호자 동의를 받아야 함. K-12 학생 계정에는 개인 맞춤 광고가 표시되지 않음",
+      "quote": "관리자는 학생에 대해 사용 설정한 '추가 서비스'에 대해 보호자 동의를 받는 것을 포함하여 학생이 Google Workspace for Education 계정으로 '핵심 서비스' 및 '추가 서비스'를 사용하는 방식을 관리합니다. / 초/중/고등학교(K-12)에서 Google Workspace for Education 계정을 사용하는 경우에는 개인 맞춤 광고가 표시되지 않습니다."
+    },
+    "dpo": {
+      "value": "개인정보 보호책임자 이름·이메일은 미기재. 보호자는 학교 관리자에게 먼저 문의, 또는 Google 문의 양식. 주소 1600 Amphitheatre Parkway, Mountain View, CA 94043, USA / (650) 253-0000",
+      "quote": "보호자인 경우: • Google Workspace for Education 계정 관리 또는 자녀 학교의 정보 사용과 관련하여 질문이 있는 경우 학교 관리자에게 문의하세요. • 또는 본 고지의 정보에 관해 'Google'에 문의 할 수도 있습니다."
+    },
+    "notes": "이 고지는 '핵심 서비스'(클래스룸·Gmail·Docs·Drive·Meet 등)와 '추가 서비스'(검색·YouTube·지도 등)를 구분한다. 동의서는 핵심 서비스 기준으로 쓰고, 학생에게 추가 서비스를 열어 줄 경우 별도 보호자 동의가 필요하다(고지 본문에 명시). 보유 기간·서버 위치·수탁사 명단·국내대리인은 본 고지에 없으므로 동의서에는 학교 기준 기간(학년도 종료 시)과 서울교육청 표준 문구로 적었다. 학년·반·번호는 고지에 나오는 항목이 아니라 학교가 계정 생성 시 넣는 정보다."
+  },
+  "_source": {
+    "url": "https://workspace.google.com/terms/education_privacy.html",
+    "canonical_url": "https://workspace.google.com/intl/ko/terms/education_privacy/",
+    "policy_version": "최종 수정일 2026년 8월 13일(한국어판, 이전 버전 2026년 7월 16일)",
+    "policy_file": "data/policies/구글워크스페이스교육용_개인정보보호고지_20261019.txt",
+    "extracted_at": "2026-10-19",
+    "method": "curl -sk -L로 HTML 수집 후 태그 제거(8,418자) → scripts/extract_policy.py(Solar pro4) 추출 → Claude가 quote를 본문과 대조해 수정·보강",
+    "model": "solar-pro4"
+  },
+  "_review_required": true
+}

@@ -1,0 +1,15 @@
+{
+  "school": "○○초등학교",
+  "deadline": "3월 10일(화)",
+  "date": "2026. 3. 3.",
+  "product_files": [
+    "products/google_workspace_edu.json",
+    "products/canva.json",
+    "products/padlet.json",
+    "products/miricanvas.json",
+    "products/classting.json",
+    "products/iscream_tkbell.json",
+    "products/entry.json",
+    "products/toctocmath.json"
+  ]
+}
