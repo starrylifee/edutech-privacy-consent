@@ -1,0 +1,10 @@
+{
+  "school": "테스트초등학교",
+  "deadline": "3월 13일(금)",
+  "date": "2026. 3. 6.",
+  "product_files": [
+    "products/quizn.json",
+    "products/canva.json",
+    "products/classting.json"
+  ]
+}

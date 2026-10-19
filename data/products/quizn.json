@@ -1,0 +1,66 @@
+{
+  "name": "퀴즈앤\n(QuizN)",
+  "vendor": "SoftN Inc.(소프트앤)",
+  "foreign": false,
+  "country": "대한민국(본사). 클라우드 서버 소재 국가는 약관에 미기재",
+  "purpose": "교육과정 운영 및 교과 활동(퀴즈·투표·실시간 참여형 수업), 학습 참여 기록 관리",
+  "items": "닉네임(참여 시 입력, 실명 대신 별명 권장), 퀴즈 점수·순위 ※ 학생은 회원 가입 없이 참여 코드로 참여하며 성명·연락처는 수집하지 않음",
+  "retention": "해당 학년도 교육과정 종료 시까지",
+  "third_party": {
+    "receiver": "SoftN Inc.(소프트앤, 퀴즈앤 운영사)",
+    "purpose": "퀴즈앤 서비스 내 퀴즈 참여 및 결과 집계 서비스 제공",
+    "items": "닉네임(참여 시 입력), 퀴즈 점수·순위",
+    "retention": "해당 학년도 교육과정 종료 시까지"
+  },
+  "_extracted": {
+    "vendor": {
+      "value": "SoftN Inc. (대한민국)",
+      "quote": "SoftN Inc. (hereinafter referred to as the \"Company\") complies with relevant laws and regulations, such as the 「Personal Information Protection Act」, and establishes and discloses this Privacy Policy"
+    },
+    "foreign": {
+      "value": false,
+      "quote": "1. Items Collected and Method of Collection ... C. Payment Users (Individual/Institutional Payment) ... The Company does not directly store payment method information such as card numbers but entrusts processing to a Payment Gateway (PG)."
+    },
+    "country": {
+      "value": "대한민국 (본사/서버/운영 회사 소재국으로 명시)",
+      "quote": "SoftN Inc. (hereinafter referred to as the \"Company\") complies with relevant laws and regulations, such as the 「Personal Information Protection Act」"
+    },
+    "items": {
+      "value": "이메일 주소, 닉네임, 프로필 이미지, 접근 로그, IP 주소, 쿠키, 서비스 이용 기록, 결제 내역 식별자(주문번호, 거래일시, 결제금액, 결제상태)",
+      "quote": "A. Members Required Items: Email address (for Login ID, notices, password reset, etc.) Optional Items: Information voluntarily entered by the user, such as nickname and profile image. B. Non-members (Quiz Participants) ... access logs, IP addresses, cookies, and service usage records may be automatically generated and collected ... C. Payment Users ... Essential Information Retained by Company: Order number for identification of payment details, transaction date and time, payment amount, payment status (success/cancellation). IP address and some access history (logs) for payment error analysis and fraud detection."
+    },
+    "purpose": {
+      "value": "이메일 기반 계정 생성·로그인 인증, 퀴즈·보드·쇼 등 콘텐츠 생성·저장·편집·삭제 기능 제공, 계정 관리(비밀번호 재설정 등), 공지·오류·정책 변경 안내 및 고객 문의 응대, 서비스 통계 분석·신기능 개발·UI/UX 개선, 비정상 이용 탐지·방지, 안정적인 서비스 제공, 결제·정산·환불·취소 처리 및 결제 관련 분쟁 대응, 법령상 보존의무 이행 및 수사·감독기관 요청 대응",
+      "quote": "The Company collects only the minimum personal information necessary for service provision and uses it only within the scope of the following purposes. A. Member Service Provision and Management Email-based account creation and login authentication. Provision of functions to create, save, edit, and delete content such as Quizzes, Boards, and Shows. Account management tasks such as account loss recovery (password reset). Delivery of notices, information on service errors/policy changes, and response to customer inquiries. B. Service Operation and Quality Improvement Service usage statistics analysis, new feature development, UI/UX improvement. Detection and prevention of abnormal use (bots, unauthorized access, service attacks, etc.). Stable service provision such as server load balancing and failure response. C. Payment and Settlement Payment processing, refund, and cancellation processing when using paid services. Verification of payment details and response to customer inquiries. Detection and blocking of fraudulent payments and response to payment-related disputes. D. Compliance with Laws Compliance with preservation obligations prescribed by laws (Act on Consumer Protection in Electronic Commerce, etc.). Response to lawful requests from investigative agencies and supervisory authorities."
+    },
+    "retention": {
+      "value": "회원 이메일 주소는 회원 탈퇴 시까지(탈퇴 즉시 파기), 서비스 이용 기록(로그·IP 등)은 최대 1년, 전자상거래법상 결제·재화 공급 기록 5년, 소비자불만·분쟁 처리 기록 3년, 통신비밀보호법상 로그·접속지 정보 3개월 이상",
+      "quote": "A. General Principle The Company destroys personal information without delay once the purpose of collection and use has been achieved. B. Retention According to Internal Policy Member Account Information (Email Address): Until membership withdrawal (destroyed immediately upon withdrawal). Service Usage Records (Logs, IP, etc.): Maximum 1 year (Purpose: Service security, prevention of fraudulent use, response to disputes). C. Retention According to Relevant Laws Act on the Consumer Protection in Electronic Commerce, Etc. Records on payment and supply of goods, etc.: 5 years Records on handling consumer complaints or disputes: 3 years Protection of Communications Secrets Act Log records, access point (origin) information: 3 months or more"
+    },
+    "third_party": {
+      "value": "동의 또는 법령 외 제공 없음 (원칙적으로 제3자 제공 없음, 법령에 따른 수사·감독기관 요청 및 사전 동의, 불가식별 통계·학문 목적 제공만 예외)",
+      "quote": "In principle, the Company does not provide users' personal information to third parties. However, exceptions are made in the following cases: When the user has consented in advance. When there is a basis in law or when requested by an investigative agency or supervisory authority in accordance with lawful procedures. When providing information processed in a form that cannot identify a specific individual for statistical preparation, academic research, etc."
+    },
+    "outsourcing": {
+      "value": "결제 처리 및 PG사(신용카드·계좌이체·간편결제 등 결제 서비스 제공), 클라우드 인프라/호스팅(서버 운영·데이터 백업·모니터링), 이메일 발송 서비스(비밀번호 재설정 이메일·공지 이메일 등)",
+      "quote": "The Company may entrust personal information processing to external professional companies for service provision as follows: Payment Processing and PG Companies: Provision of payment services such as credit cards, bank transfers, and simple payments. Cloud Infrastructure/Hosting: Server operation, data backup, and monitoring. Email Sending Service: Password reset emails, notice emails, etc."
+    },
+    "children": {
+      "value": "만 14세 미만 아동은 원칙적으로 개별 회원가입이 필요 없는 서비스 구조를 지향하며 퀴즈 참여 시 개인을 식별할 수 있는 개인정보를 수집하지 않음. 향후 아동 개별 계정이 필요해지면 법정대리인(학부모 등)의 동의 절차를 반영할 예정. 교사·학교는 비식별 참여 코드·닉네임 참여 방식을 우선 사용하고, 교사가 학생 계정을 대신 생성할 경우 해당 교육기관의 내부 지침 및 개인정보보호 규정(교육기본법 제23조의3, 초·중등교육법 제30조의6 등)에 따라 처리하며 회사는 이메일 외의 개인정보를 요구하지 않는 구조를 유지",
+      "quote": "A. Children Under 14 In principle, the Company aims for a service structure that does not require individual membership registration for children under the age of 14, and does not collect personally identifiable information when participating in quiz solutions. If individual accounts for children become necessary in the future, a procedure for consent from a legal representative (parent, etc.) will be reflected in the system in accordance with Article 22-2 of the 「Personal Information Protection Act」 and related guidelines. C. Use by Teachers and Educational Institutions When schools, education offices, or institutions use the service for classes or training, priority is given to participation methods using de-identified participation codes or nicknames without entering student personal real-name information. If a teacher needs to create an account on behalf of a student, it will be processed according to the internal guidelines and personal information protection regulations of the relevant educational institution (Article 23-3 of the Framework Act on Education, Article 30-6 of the Elementary and Secondary Education Act, etc.), and the Company maintains a structure that does not require personal information other than email."
+    },
+    "dpo": {
+      "value": "Chief Privacy Officer (CPO) 서도엉(Development 부서 Director), 전화 02-6925-6184, 이메일 doyeong.seo@softn.kr / 기타 기관: KISA 개인정보보호 상담센터 118, 개인정보분쟁조정위원회 1833-6972, 대검찰청 사이버수사과 1301, 경찰청 사이버수사국 182",
+      "quote": "A. Chief Privacy Officer (CPO) Name: Seo Doyeong Department: Development Position: Director Phone: 02-6925-6184 Email: doyeong.seo@softn.kr B. Other Agencies KISA Privacy Call Center: 118 (privacy.kisa.or.kr) Personal Information Dispute Mediation Committee: 1833-6972 (www.kopico.go.kr) Supreme Prosecutors' Office Cyber Investigation Division: 1301 (www.spo.go.kr) National Police Agency Cyber Investigation Bureau: 182 (ecrm.police.go.kr)"
+    },
+    "notes": "학생은 비회원(참여 코드+닉네임)으로 참여하는 구조라 약관상 개인식별정보를 수집하지 않는다. 교사가 학생 계정을 대신 만들면 이메일만 쓴다. 닉네임에 실명을 쓰게 하면 성명이 수집되는 셈이므로 별명 사용을 권장하거나 동의서에 '닉네임(실명 입력 시 성명)'으로 둔다. 클라우드 호스팅 위탁은 있으나 국가가 미기재라 국외이전 고지는 넣지 않았다(필요 시 업체 02-6925-6184에 서버 소재지 확인). 약관은 영문판만 확인됨(2026-01-15 시행)."
+  },
+  "_source": {
+    "url": "https://quizn.show/static-pages/SIGNIN1002_current.html",
+    "policy_version": "2026-01-15 시행(영문)",
+    "policy_file": "data/policies/퀴즈앤_개인정보처리방침_20261019.txt",
+    "extracted_at": "2026-10-19",
+    "method": "Solar(solar-pro4) 추출 후 Claude 검수"
+  },
+  "_review_required": true
+}

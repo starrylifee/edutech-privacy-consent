@@ -1,0 +1,162 @@
+Privacy Policy 
+ QuizN Privacy Policy 
+ Privacy Policy
+ QuizN (SoftN Inc.)
+ Effective Date: January 15, 2026
+ SoftN Inc. (hereinafter referred to as the "Company") complies with relevant laws and regulations, such as the 「Personal Information Protection Act」, and establishes and discloses this Privacy Policy to safely protect users' personal information. This policy applies to the QuizN service (including web and mobile web).
+ Table of Contents
+ 1. Items Collected and Method of Collection 
+ 2. Purpose of Collection and Use 
+ 3. Retention and Use Period 
+ 4. Provision to Third Parties 
+ 5. Entrustment of Personal Information 
+ 6. Rights of Users and Exercise Methods 
+ 7. Procedure and Method of Destruction 
+ 8. Measures for Safety of Personal Information 
+ 9. Use of Cookies 
+ 10. Matters Concerning Protection of Children/Youth 
+ 11. Protection of Rights and Contact Information 
+ 12. Changes to Privacy Policy 
+ 1. 
+ Items Collected and Method of Collection 
+ A. Members 
+ Required Items: Email address (for Login ID, notices, password reset, etc.)
+ Optional Items: Information voluntarily entered by the user, such as nickname and profile image.
+ Features: The Company does not require real-name verification for email accounts and does not restrict a single natural person from creating and using multiple email accounts. Information for real-name verification such as name, mobile phone number, address, and resident registration number is not collected during membership registration.
+ B. Non-members (Quiz Participants) 
+ Collected Items: Generally, personally identifiable information is not collected. Only statistical information such as participation codes (Pin Numbers), scores, and rankings generated during quiz participation is processed.
+ However, access logs, IP addresses, cookies, and service usage records may be automatically generated and collected for service stability, security, and prevention of fraudulent use.
+ C. Payment Users (Individual/Institutional Payment) 
+ Individual Payment: The Company does not directly store payment method information such as card numbers but entrusts processing to a Payment Gateway (PG).
+ Essential Information Retained by Company: Order number for identification of payment details, transaction date and time, payment amount, payment status (success/cancellation).
+ IP address and some access history (logs) for payment error analysis and fraud detection.
+ D. Group Bulk Purchase (Education Offices, Schools, Institutions, Companies, etc.) 
+ Identification Information Based on Member Account: Email address (account provided by the institutional manager or entered by the user).
+ Additional personal information such as name, school name, grade/class, and mobile phone number is not collected or stored. Even if necessary, processing is done using information retained by the institution as much as possible.
+ E. Method of Collection 
+ Direct input by the user during membership registration and service use.
+ Information generation through PG company linkage API during the payment process.
+ Collection of automatically generated information (access logs, IP, cookies, etc.) during service use.
+ 2. 
+ Purpose of Collection and Use of Personal Information 
+ The Company collects only the minimum personal information necessary for service provision and uses it only within the scope of the following purposes. If the purpose changes, additional consent will be obtained in accordance with relevant laws.
+ A. Member Service Provision and Management 
+ Email-based account creation and login authentication.
+ Provision of functions to create, save, edit, and delete content such as Quizzes, Boards, and Shows.
+ Account management tasks such as account loss recovery (password reset).
+ Delivery of notices, information on service errors/policy changes, and response to customer inquiries.
+ B. Service Operation and Quality Improvement 
+ Service usage statistics analysis, new feature development, UI/UX improvement.
+ Detection and prevention of abnormal use (bots, unauthorized access, service attacks, etc.).
+ Stable service provision such as server load balancing and failure response.
+ C. Payment and Settlement 
+ Payment processing, refund, and cancellation processing when using paid services.
+ Verification of payment details and response to customer inquiries.
+ Detection and blocking of fraudulent payments and response to payment-related disputes.
+ D. Compliance with Laws 
+ Compliance with preservation obligations prescribed by laws (Act on Consumer Protection in Electronic Commerce, etc.).
+ Response to lawful requests from investigative agencies and supervisory authorities.
+ 3. 
+ Retention and Use Period of Personal Information 
+ A. General Principle 
+ The Company destroys personal information without delay once the purpose of collection and use has been achieved.
+ B. Retention According to Internal Policy 
+ Member Account Information (Email Address): Until membership withdrawal (destroyed immediately upon withdrawal).
+ Service Usage Records (Logs, IP, etc.): Maximum 1 year (Purpose: Service security, prevention of fraudulent use, response to disputes).
+ C. Retention According to Relevant Laws 
+ Act on the Consumer Protection in Electronic Commerce, Etc. 
+ Records on payment and supply of goods, etc.: 5 years
+ Records on handling consumer complaints or disputes: 3 years
+ Protection of Communications Secrets Act 
+ Log records, access point (origin) information: 3 months or more
+ D. Non-member Information 
+ Quiz participation records (scores, rankings, etc.) are stored only in the form of statistical data that cannot directly identify individuals, and additional information that allows reconnection with individual participants is not retained.
+ 4. 
+ Provision of Personal Information to Third Parties 
+ In principle, the Company does not provide users' personal information to third parties. However, exceptions are made in the following cases:
+ When the user has consented in advance.
+ When there is a basis in law or when requested by an investigative agency or supervisory authority in accordance with lawful procedures.
+ When providing information processed in a form that cannot identify a specific individual for statistical preparation, academic research, etc.
+ ※ Provision to Education Offices, Schools, and Institutions 
+ Even if education offices, schools, or institutions introduce the service through bulk purchase, the Company strictly retains no personal information other than email addresses. Therefore, the Company does not use a structure to provide personal information of specific teachers or students to the relevant institution individually, and strictly adheres to the principle of providing only statistical or de-identified information levels even if necessary.
+ 5. 
+ Entrustment of Personal Information Processing 
+ The Company may entrust personal information processing to external professional companies for service provision as follows:
+ Payment Processing and PG Companies: Provision of payment services such as credit cards, bank transfers, and simple payments.
+ Cloud Infrastructure/Hosting: Server operation, data backup, and monitoring.
+ Email Sending Service: Password reset emails, notice emails, etc.
+ When concluding an entrustment contract, the Company imposes obligations for technical and administrative protection measures for personal information in accordance with Article 26 of the 「Personal Information Protection Act」 and discloses the status of entrusted processing in the Privacy Policy.
+ 6. 
+ Rights of Users and Exercise Methods 
+ A. Content of Rights 
+ Users may request access, correction, deletion, or suspension of processing of their personal information at any time.
+ Members can directly view, modify, or delete information through the 'My Info' or 'Account Management' menus within the service.
+ B. Method of Exercise 
+ Requests can be made via email inquiry, customer center, web inquiry, etc.
+ The Company takes necessary measures without delay after verifying identity.
+ C. Rights of Minors 
+ In the case of children under the age of 14, the legal representative may request access, correction, deletion, or suspension of processing of the child's personal information.
+ 7. 
+ Procedure and Method of Destruction of Personal Information 
+ A. Destruction Procedure 
+ After the purpose is achieved (membership withdrawal, service termination, expiration of retention period, etc.), information is moved to a separate DB and destroyed without delay if there is no preservation obligation under the law.
+ B. Destruction Method 
+ Electronic Files: Deleted using technical methods that make recovery impossible (overwriting, encryption destruction, etc.).
+ Paper Documents: Shredded with a shredder or incinerated.
+ 8. 
+ Measures for Safety of Personal Information 
+ The Company implements the following safety measures in accordance with Article 29 of the 「Personal Information Protection Act」.
+ Establishment and implementation of internal management plans.
+ Minimization of access rights to personal information and operation of access control systems.
+ Encrypted storage of key information such as passwords.
+ Installation and regular updates of security programs, and vulnerability checks.
+ Retention of access records (logs) for at least 6 months and measures to prevent forgery/alteration.
+ Physical access control (restricted access to server rooms, data storage rooms, etc.).
+ 9. 
+ Use of Cookies 
+ A. Purpose of Cookie Use 
+ Provision of service usage convenience (maintaining login status, etc.).
+ Service improvement through analysis of usage patterns.
+ B. Installation, Operation, and Refusal of Cookies 
+ Users can allow or refuse cookie storage through browser settings. However, refusing cookies may restrict the use of some services.
+ [Web Browser Setting Method] 
+ Whale: Browser Settings > Privacy > Delete Browsing Data
+ Chrome: Browser Settings > Privacy and Security > Clear Browsing Data
+ Edge: Browser Settings > Cookies and Site Permissions > Manage and delete cookies and site data
+ [Mobile Browser Setting Method] 
+ Whale: Mobile Browser Settings > Privacy and Security > Delete Browsing Data
+ Chrome: Mobile Browser Settings > Privacy and Security > Clear Browsing Data
+ Safari: Mobile Device Settings > Safari > Advanced > Block All Cookies
+ Samsung Internet: Mobile Browser Settings > Browsing Data > Delete Browsing Data
+ 10. 
+ Matters Concerning Protection of Children and Youth 
+ A. Children Under 14 
+ In principle, the Company aims for a service structure that does not require individual membership registration for children under the age of 14, and does not collect personally identifiable information when participating in quiz solutions. If individual accounts for children become necessary in the future, a procedure for consent from a legal representative (parent, etc.) will be reflected in the system in accordance with Article 22-2 of the 「Personal Information Protection Act」 and related guidelines.
+ B. Youth Over 14 
+ Users over the age of 14 can sign up for membership using only an email account, and real-name verification is not required. Game elements such as 'voting, ranking competition, and live quizzes' are designed so as not to induce excessive provision of personal information.
+ C. Use by Teachers and Educational Institutions 
+ When schools, education offices, or institutions use the service for classes or training, priority is given to participation methods using de-identified participation codes or nicknames without entering student personal real-name information.
+ If a teacher needs to create an account on behalf of a student, it will be processed according to the internal guidelines and personal information protection regulations of the relevant educational institution (Article 23-3 of the Framework Act on Education, Article 30-6 of the Elementary and Secondary Education Act, etc.), and the Company maintains a structure that does not require personal information other than email.
+ 11. 
+ Protection of Rights and Contact Information 
+ The Company is generally responsible for personal information processing tasks and has designated a Chief Privacy Officer (CPO) as follows to handle complaints and damage relief for data subjects related to personal information processing.
+ A. Chief Privacy Officer (CPO) 
+ Name: Seo Doyeong
+ Department: Development
+ Position: Director
+ Phone: 02-6925-6184
+ Email: doyeong.seo@softn.kr
+ B. Other Agencies 
+ KISA Privacy Call Center: 118 (privacy.kisa.or.kr)
+ Personal Information Dispute Mediation Committee: 1833-6972 (www.kopico.go.kr)
+ Supreme Prosecutors' Office Cyber Investigation Division: 1301 (www.spo.go.kr)
+ National Police Agency Cyber Investigation Bureau: 182 (ecrm.police.go.kr)
+ 12. 
+ Changes to Privacy Policy 
+ This Privacy Policy is effective from January 15, 2026.
+ In the event that the Privacy Policy is revised due to changes in laws or service contents, the Company will notify users through the first screen of the homepage or a notice screen starting 7 days prior to the revision (30 days prior in case of significant changes to user rights).
+ Addendum
+ Partially Revised: May 18, 2022
+ First Announced: December 01, 2019
+ Currently Effective: January 15, 2026
+ 📋 View Version History

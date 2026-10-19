@@ -22,7 +22,8 @@ Solar 추출 스크립트(`extract_policy.py`)는 사용자 PC의 업스테이�
 
 ### 1. 제품 DB 확인
 `data/products/*.json`에 있으면 그대로 쓴다. `_source.extracted_at`이 6개월 넘었거나 `policy_version`이 오래됐으면 약관 페이지에서 시행일만 다시 확인한다.
-보유(2026-10-19 기준 8종): canva, padlet, google_workspace_edu, miricanvas, classting, iscream_tkbell, entry, toctocmath.
+보유(2026-10-19 기준 9종): canva, padlet, google_workspace_edu, miricanvas, classting, iscream_tkbell, entry, toctocmath, quizn.
+- 퀴즈앤처럼 학생이 비회원(참여 코드·닉네임)으로만 쓰는 서비스는 items를 "닉네임(실명 대신 별명 권장), 점수·순위"로 적고, 실명을 닉네임에 쓰면 성명 수집이 되는 점을 notes에 남긴다.
 
 ### 2. 없는 제품은 약관 수집 → `data/policies/제품명_개인정보처리방침_YYYYMMDD.txt`
 순서대로 시도한다. 본문 300자 미만이면 다음 방법으로.
